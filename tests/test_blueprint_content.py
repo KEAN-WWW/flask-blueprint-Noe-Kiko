@@ -1,6 +1,6 @@
 """This is a test script to test flask application"""
 import pytest
-from application.ap
+from application.app
 
 @pytest.fixture(name="client")
 def create_client():
