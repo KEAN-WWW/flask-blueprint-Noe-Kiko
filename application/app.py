@@ -2,7 +2,7 @@
 Initializes Flask app and registers blueprints.
 """
 from flask import Flask
-from application.bp.homepage import homepage
+from application.bp.homepage.homepage import homepage
 # initialize Flask service
 app = Flask(__name__)
 # register blueprint
