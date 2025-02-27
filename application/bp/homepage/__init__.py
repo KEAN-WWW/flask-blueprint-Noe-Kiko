@@ -2,7 +2,6 @@
 Homepage Blueprint for w/ routes to
 Blueprint and About Page
 """
-
 from flask import Blueprint, render_template
 
 # Declare Blueprint object
