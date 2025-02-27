@@ -1,9 +1,7 @@
-"""
-Initializes Flask app and registers blueprints.
-"""
-
+"""Flask application initialization"""
 from flask import Flask
 from application.bp.homepage import homepage
+
 # initialize Flask service
 app = Flask(__name__)
 # register blueprint
